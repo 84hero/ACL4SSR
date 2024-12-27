@@ -30,6 +30,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
+    exclude-filter: (?i)5倍|2倍
     interval: 300
     tolerance: 50
   - name: 📲 电报消息
@@ -232,7 +233,8 @@ proxy-groups:
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
     include-all: true
-    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|(?!.*(?:2倍|5倍|10倍|倍速))
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|HongKong
+    exclude-filter: (?i)5倍|2倍
     type: url-test
     interval: 300
     tolerance: 50
@@ -268,7 +270,8 @@ proxy-groups:
     tolerance: 50    
   - name: 🇰🇷 韩国节点
     include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|韩|韓|(?!.*(?:2倍|5倍|10倍|倍速))
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    exclude-filter: (?i)5倍|2倍
     type: url-test
     interval: 300
     tolerance: 50
