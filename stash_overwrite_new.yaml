@@ -30,7 +30,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
-    exclude-filter: (?i)5倍|2倍
+    exclude-filter: "倍"
     interval: 300
     tolerance: 50
   - name: 📲 电报消息
