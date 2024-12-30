@@ -269,8 +269,9 @@ proxy-groups:
     interval: 300
     tolerance: 50    
   - name: 🇰🇷 韩国节点
+    include-all: true
+    exclude-filter: 倍
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
-    exclude-filter: (?i)5倍|2倍
     type: url-test
     interval: 300
     tolerance: 50
