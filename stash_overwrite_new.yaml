@@ -259,6 +259,12 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: GPT节点
+    include-all: true
+    filter: (?i)GPT
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 🇸🇬 狮城节点
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
