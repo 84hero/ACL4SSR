@@ -1,3 +1,6 @@
+name: clash覆写
+desc: 节点分组 rule集合
+
 # proxy-providers:
 #   机场:
 #     type: http
