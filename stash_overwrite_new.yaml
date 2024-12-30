@@ -270,8 +270,7 @@ proxy-groups:
     tolerance: 50    
   - name: 🇰🇷 韩国节点
     include-all: true
-    exclude-filter: "5倍|2倍"
-    filter: "KR|Korea|KOR|首尔|韩|韓"
+    filter: ^(?!.*?[2-9]倍).*?(KR|Korea|KOR|首尔|韩|韓).*
     type: url-test
     interval: 300
     tolerance: 50
