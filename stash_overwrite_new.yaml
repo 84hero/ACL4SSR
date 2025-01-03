@@ -33,7 +33,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
-    filter: ^(?!.*\b(?:[2-9]\d*|1\d{1,2})倍\b).*
+    filter: ^(?!.*\b(?:[2-9]\d*|1\d{1,2})倍\b)(?!.*(?:剩余|套餐|官网)).*
     interval: 300
     tolerance: 50
   - name: 📲 电报消息
