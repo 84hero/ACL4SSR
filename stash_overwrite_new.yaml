@@ -242,8 +242,9 @@ proxy-groups:
   - name: 省流节点
     include-all: true
     filter: "0.5|0.1|0.01"
+    type: load-balance
     type: url-test
-    interval: 300
+    interval: 120
     tolerance: 50      
   - name: 🇭🇰 香港节点
     include-all: true
