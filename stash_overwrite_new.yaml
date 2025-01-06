@@ -245,7 +245,8 @@ proxy-groups:
     type: load-balance
     # type: url-test
     interval: 120
-    tolerance: 50      
+    tolerance: 1000     
+    strategy: round-robin
   - name: 🇭🇰 香港节点
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|HongKong
