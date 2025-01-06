@@ -243,7 +243,7 @@ proxy-groups:
     include-all: true
     filter: "0.5|0.1|0.01"
     type: load-balance
-    type: url-test
+    # type: url-test
     interval: 120
     tolerance: 50      
   - name: 🇭🇰 香港节点
