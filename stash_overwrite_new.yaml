@@ -38,10 +38,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 📲 电报消息
-    type: select
+    type: url-test
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
       - 🇸🇬 狮城节点
       - 🇨🇳 东南亚节点
       - 🇭🇰 香港节点
@@ -555,4 +554,6 @@ rules:
   - "DOMAIN-KEYWORD,-cn,🎯 全球直连"
   - "DOMAIN-KEYWORD,.cn,🎯 全球直连"
   - "GEOIP,CN,🎯 全球直连"
-  - "MATCH,🐟 漏网之鱼"
+  # - "MATCH,🐟 漏网之鱼"
+  - "MATCH,🎯 全球直连"
+  - 
