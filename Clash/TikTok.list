@@ -1,13 +1,26 @@
 # 内容：TikTok
-# 数量：11条
+
 USER-AGENT,TikTok*
-DOMAIN-KEYWORD,tiktokcdn
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tik-tokapi.com
+
+# 主域
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
+
+# 字节系通用服务
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,tik-tokapi.com
+
+# CDN / 静态资源
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,akamaized.net   # 用于 TikTok 视频 CDN，例如 p16-tiktokcdn-com.akamaized.net
+
+# 补充：常见子域（如果需要精细控制可单独写）
+DOMAIN,api.tiktokv.com
+DOMAIN,log.tiktokv.com
+DOMAIN,abtest-sg-tiktok.byteoversea.com
+DOMAIN,api2-16-h2.musical.ly
