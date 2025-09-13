@@ -530,6 +530,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  TikTok:
+    url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/TikTok.list
+    path: ./ruleset/TikTok.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http    
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
