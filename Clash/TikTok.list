@@ -2,6 +2,8 @@
 
 USER-AGENT,TikTok*
 DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,tiktokcdn
+
 
 # 主域
 DOMAIN-SUFFIX,tiktok.com
