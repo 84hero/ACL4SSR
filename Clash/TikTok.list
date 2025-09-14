@@ -1,6 +1,7 @@
 # 内容：TikTok
 
 USER-AGENT,TikTok*
+DOMAIN-KEYWORD,tiktok
 
 # 主域
 DOMAIN-SUFFIX,tiktok.com
