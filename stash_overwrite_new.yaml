@@ -588,12 +588,12 @@ rule-providers:
     format: text
     type: http
   Binance:
-    type: http
-    format: text
-    interval: 86400
-    behavior: classical
-    path: ./ruleset/Exchange/Binance.list
     url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
+    path: ./ruleset/TikTok.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http    
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
