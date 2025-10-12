@@ -589,6 +589,8 @@ rule-providers:
     type: http
   Binance:
     type: http
+    format: text
+    interval: 86400
     behavior: classical
     path: ./ruleset/Exchange/Binance.list
     url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
