@@ -589,7 +589,7 @@ rule-providers:
     type: http
   Binance:
     url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
-    path: ./ruleset/TikTok.list
+    path: ./ruleset/Exchange/Binance.list
     behavior: classical
     interval: 86400
     format: text
