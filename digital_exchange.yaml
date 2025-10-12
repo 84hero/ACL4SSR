@@ -1,12 +1,12 @@
 rule-providers+:
     Binance:
-        url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
-        path: ./ruleset/Exchange/Binance.list
-        behavior: classical
-        interval: 86400
-        format: text
-        type: http    
-        
+      url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
+      path: ./ruleset/Exchange/Binance.list
+      behavior: classical
+      interval: 86400
+      format: text
+      type: http    
+
 proxy-groups+:
   - name: 💹 Binance
     type: select
@@ -21,7 +21,6 @@ proxy-groups+:
       - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT  
-
 
 rules+:
   - "RULE-SET,Binance,💹 Binance"  
