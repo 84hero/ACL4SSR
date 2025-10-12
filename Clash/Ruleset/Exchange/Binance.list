@@ -1,0 +1,14 @@
+
+# Binance Global
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.me
+
+# （可选）备用或曾用域名
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.cc
