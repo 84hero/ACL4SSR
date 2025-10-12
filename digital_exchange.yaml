@@ -1,11 +1,11 @@
-rule-providers+:
-    Binance:
-      url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
-      path: ./ruleset/Exchange/Binance.list
-      behavior: classical
-      interval: 86400
-      format: text
-      type: http    
+rule-providers:
+  Binance:
+    url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
+    path: ./ruleset/Exchange/Binance.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 proxy-groups+:
   - name: 💹 Binance
