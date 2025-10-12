@@ -594,7 +594,6 @@ rule-providers:
     behavior: classical
     path: ./ruleset/Exchange/Binance.list
     url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
-    interval: 86400    
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
