@@ -537,6 +537,19 @@ rule-providers:
     interval: 86400
     format: text
     type: http    
+dns:
+  enable: true
+  listen: 127.0.0.1:7874
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback:
+    - tls://1.0.0.1:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
@@ -575,3 +588,5 @@ rules:
   - "DOMAIN-KEYWORD,.cn,🎯 全球直连"
   - "GEOIP,CN,🎯 全球直连"
   - "MATCH,🐟 漏网之鱼"
+
+  
