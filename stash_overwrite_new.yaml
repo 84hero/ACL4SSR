@@ -11,6 +11,42 @@ desc: 节点分组 rule集合
 #       interval: 600
 #       lazy: true
 #       url: http://www.gstatic.com/generate_204  
+dns:
+  enable: true
+  listen: 127.0.0.1:7874
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  # 国内外分流 DNS
+  nameserver:
+    # ✅ 国内优先解析（加快 bilibili、微信、淘宝等）
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+
+  fallback:
+    # ✅ 国外解析（加密 DNS）
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+    domain:
+      # ✅ 强制国外 DNS 的域名
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.twitter.com'
+      - '+.tiktokcdn.com'
+      - '+.openai.com'
+      - '+.anthropic.com'
+      - '+.claude.ai'
+      - '+.binance.com'
+      - '+.coinbase.com'
 
       
 proxy-groups:
@@ -537,19 +573,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http    
-dns:
-  enable: true
-  listen: 127.0.0.1:7874
-  enhanced-mode: fake-ip
-  nameserver:
-    - https://1.1.1.1/dns-query
-    - https://8.8.8.8/dns-query
-  fallback:
-    - tls://1.0.0.1:853
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
