@@ -7,7 +7,7 @@ rule-providers:
     format: text
     type: http
 
-proxy-groups+:
++proxy-groups:
   - name: 💹 Binance
     type: select
     proxies:
@@ -22,5 +22,5 @@ proxy-groups+:
       - 🚀 手动切换
       - DIRECT  
 
-rules+:
++rules:
   - "RULE-SET,Binance,💹 Binance"  
