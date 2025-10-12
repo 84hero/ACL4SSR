@@ -6,7 +6,7 @@ rule-providers+:
         interval: 86400
         format: text
         type: http    
-
+        
 proxy-groups+:
   - name: 💹 Binance
     type: select
@@ -21,6 +21,7 @@ proxy-groups+:
       - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT  
+
 
 rules+:
   - "RULE-SET,Binance,💹 Binance"  
