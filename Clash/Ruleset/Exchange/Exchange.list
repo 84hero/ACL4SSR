@@ -1,0 +1,90 @@
+# ==============================
+# 加密货币交易所域名规则合集
+# 包含 Binance / Coinbase / OKX / KuCoin / Gate.io / MEXC / Bybit / Bitfinex / Bitget / Huobi / Bitstamp / Kraken
+# 更新时间：2025-10-13
+# ==============================
+
+# Binance Global
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.cc
+
+# Coinbase Global
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbase.cloud
+DOMAIN-SUFFIX,coinbase-cdn.com
+DOMAIN-SUFFIX,cbcdn.com
+DOMAIN-SUFFIX,cbpay.cards
+
+# Kraken
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,krakenfx.com
+DOMAIN-SUFFIX,kraken.io
+DOMAIN-SUFFIX,krakenstatus.com
+DOMAIN-SUFFIX,krakenapi.com
+
+# OKX (OKEx)
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx.me
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okexcn.com
+DOMAIN-SUFFIX,okxws.com
+DOMAIN-SUFFIX,okx-dns.com
+
+# KuCoin
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,kucoin.io
+DOMAIN-SUFFIX,kucoin.cc
+DOMAIN-SUFFIX,kcsapi.net
+DOMAIN-SUFFIX,kucoin.net
+
+# Gate.io
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gateapi.io
+DOMAIN-SUFFIX,gatechain.io
+DOMAIN-SUFFIX,gateimg.com
+
+# MEXC (抹茶)
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.io
+DOMAIN-SUFFIX,mexcglobal.com
+DOMAIN-SUFFIX,mexc.zone
+DOMAIN-SUFFIX,mxc.com
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.me
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapi.io
+DOMAIN-SUFFIX,bybitglobal.com
+
+# Bitfinex
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitfinex.help
+DOMAIN-SUFFIX,bfx.to
+
+# Bitget
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetimg.com
+DOMAIN-SUFFIX,bgstatic.com
+DOMAIN-SUFFIX,bitgetapi.com
+
+# Huobi / HTX
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,huobi.pro
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,htx.pro
+DOMAIN-SUFFIX,huobigroup.com
+DOMAIN-SUFFIX,huobiasia.vip
+
+# Bitstamp
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bitstamp.com
+DOMAIN-SUFFIX,bitstamp-cdn.com
