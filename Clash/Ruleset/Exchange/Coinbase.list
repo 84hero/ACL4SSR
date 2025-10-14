@@ -1,0 +1,8 @@
+# Coinbase Global
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbase.cloud
+DOMAIN-SUFFIX,coinbase-cdn.com
+
+# （可选）
+DOMAIN-SUFFIX,cbcdn.com
+DOMAIN-SUFFIX,cbpay.cards
