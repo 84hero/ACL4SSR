@@ -1,14 +1,14 @@
 rule-providers:
-  EX_Binance:
-    url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Binance.list
-    path: ./ruleset/Exchange/Binance.list
+  Exchange:
+    url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Exchange.list
+    path: ./ruleset/Exchange.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 
 +proxy-groups:
-  - name: 💹 Binance
+  - name: ₿ 加密交易所
     type: select
     proxies:
       - 🚀 节点选择
@@ -23,4 +23,4 @@ rule-providers:
       - DIRECT  
 
 +rules:
-  - "RULE-SET,EX_Binance,💹 Binance"  
+  - RULE-SET,Exchange,₿ 加密交易所
