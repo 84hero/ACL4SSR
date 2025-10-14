@@ -230,6 +230,7 @@ proxy-groups:
   - name: 🧑‍💻 GitHub
     type: select
     proxies:
+      - ♻️ 自动选择
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
