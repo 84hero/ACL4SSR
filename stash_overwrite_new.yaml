@@ -1,5 +1,5 @@
-name: clash覆写
-desc: 节点分组 rule集合
+name: stash base overwrite
+desc: stash base overwrite rule
 dns:
   enable: true
   listen: 127.0.0.1:7874
