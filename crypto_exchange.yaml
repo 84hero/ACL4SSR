@@ -1,5 +1,5 @@
-name: crypto_exchange overwrite
-desc: crypto_exchange overwrite rule
+name: crypto exchange overwrite
+desc: crypto exchange overwrite rule
 
 rule-providers:
   Exchange:
