@@ -1,0 +1,20 @@
+overrides:
+  proxy-groups:
+    - name: "₿ 加密交易所"
+      type: select
+      proxies:
+        - "🚀 节点选择"
+        - "♻️ 自动选择"
+        - "🇸🇬 狮城节点"
+        - "🇭🇰 香港节点"
+        - "🇨🇳 台湾节点"
+        - "🇯🇵 日本节点"
+        - "🇺🇲 美国节点"
+        - "🇰🇷 韩国节点"
+        - "🚀 手动切换"
+        - "DIRECT"
+      append: true  # 关键：追加而非替换
+
+  rules:
+    - RULE-SET,https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Exchange.list,₿ 加密交易所
+      append: true  # 关键：追加规则
