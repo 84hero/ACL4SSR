@@ -17,6 +17,11 @@ DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,binancezh.com
 DOMAIN-SUFFIX,binancezh.cc
 DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,bnb
+DOMAIN-KEYWORD,bsc
+
+
 
 # Coinbase Global
 DOMAIN-SUFFIX,coinbase.com
@@ -39,6 +44,9 @@ DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okexcn.com
 DOMAIN-SUFFIX,okxws.com
 DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,okex
+
 
 # KuCoin
 DOMAIN-SUFFIX,kucoin.com
@@ -78,6 +86,7 @@ DOMAIN-SUFFIX,bitgetimg.com
 DOMAIN-SUFFIX,bgstatic.com
 DOMAIN-SUFFIX,bgbstatic.com
 DOMAIN-SUFFIX,bitgetapi.com
+DOMAIN-KEYWORD,bitget
 
 # Huobi / HTX
 DOMAIN-SUFFIX,huobi.com
