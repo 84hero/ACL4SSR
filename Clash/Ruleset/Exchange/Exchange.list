@@ -1,6 +1,7 @@
 # ==============================
 # 加密货币交易所域名规则合集
-# 包含 Binance / Coinbase / OKX / KuCoin / Gate.io / MEXC / Bybit / Bitfinex / Bitget / Huobi / Bitstamp / Kraken
+# 维护：@84hero
+# 格式：ACL4SSR / Clash / Mihomo 通用
 # 更新时间：2025-10-13
 # ==============================
 
@@ -88,3 +89,133 @@ DOMAIN-SUFFIX,huobiasia.vip
 DOMAIN-SUFFIX,bitstamp.net
 DOMAIN-SUFFIX,bitstamp.com
 DOMAIN-SUFFIX,bitstamp-cdn.com
+
+# ==============================
+# 以下为补充交易所
+# ==============================
+
+# BitMart
+DOMAIN-SUFFIX,bitmart.com
+DOMAIN-SUFFIX,bitmart.info
+DOMAIN-SUFFIX,bitmart.news
+DOMAIN-SUFFIX,bitmart.zone
+
+# BingX
+DOMAIN-SUFFIX,bingx.com
+DOMAIN-SUFFIX,bingx.pro
+DOMAIN-SUFFIX,bingx.io
+DOMAIN-SUFFIX,bingxapi.com
+
+# Phemex
+DOMAIN-SUFFIX,phemex.com
+DOMAIN-SUFFIX,phemex.io
+DOMAIN-SUFFIX,phemex.tech
+
+# Bitrue
+DOMAIN-SUFFIX,bitrue.com
+DOMAIN-SUFFIX,bitrue.pro
+DOMAIN-SUFFIX,bitrue.io
+
+# LBank
+DOMAIN-SUFFIX,lbank.info
+DOMAIN-SUFFIX,lbank.com
+DOMAIN-SUFFIX,lbank.site
+DOMAIN-SUFFIX,lbankapi.com
+
+# Bitvavo
+DOMAIN-SUFFIX,bitvavo.com
+DOMAIN-SUFFIX,bitvavo.io
+
+# Bittrex
+DOMAIN-SUFFIX,bittrex.com
+DOMAIN-SUFFIX,bittrexglobal.com
+
+# ProBit
+DOMAIN-SUFFIX,probit.com
+DOMAIN-SUFFIX,probit.kr
+DOMAIN-SUFFIX,probitglobal.com
+
+# Upbit
+DOMAIN-SUFFIX,upbit.com
+DOMAIN-SUFFIX,upbit.co.kr
+DOMAIN-SUFFIX,upbitglobal.com
+
+# Coincheck
+DOMAIN-SUFFIX,coincheck.com
+DOMAIN-SUFFIX,coincheck.info
+
+# Coinone
+DOMAIN-SUFFIX,coinone.co.kr
+DOMAIN-SUFFIX,coinonecorp.com
+
+# Bithumb
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,bithumb.io
+DOMAIN-SUFFIX,bithumbcorp.com
+
+# XT.COM
+DOMAIN-SUFFIX,xt.com
+DOMAIN-SUFFIX,xtpub.com
+DOMAIN-SUFFIX,xtglobal.io
+
+# Poloniex
+DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,poloniex.org
+DOMAIN-SUFFIX,poloniex.io
+
+# ZB.COM（中币）
+DOMAIN-SUFFIX,zb.com
+DOMAIN-SUFFIX,zb.live
+DOMAIN-SUFFIX,zb.center
+DOMAIN-SUFFIX,zb.cn
+
+# BKEX
+DOMAIN-SUFFIX,bkex.com
+DOMAIN-SUFFIX,bkex.global
+DOMAIN-SUFFIX,bkex.cc
+DOMAIN-SUFFIX,bkex.io
+
+# Deepcoin
+DOMAIN-SUFFIX,deepcoin.com
+DOMAIN-SUFFIX,deepcoinvip.com
+DOMAIN-SUFFIX,deepcoin.pro
+
+# CoinW
+DOMAIN-SUFFIX,coinw.com
+DOMAIN-SUFFIX,coinw.io
+DOMAIN-SUFFIX,coinw.vip
+DOMAIN-SUFFIX,coinwapp.net
+
+# Bitso
+DOMAIN-SUFFIX,bitso.com
+DOMAIN-SUFFIX,bitso.net
+
+# Korbit
+DOMAIN-SUFFIX,korbit.co.kr
+
+# CoinEx
+DOMAIN-SUFFIX,coinex.com
+DOMAIN-SUFFIX,coinex.org
+DOMAIN-SUFFIX,coinex.zone
+
+# WazirX
+DOMAIN-SUFFIX,wazirx.com
+DOMAIN-SUFFIX,wazirx.info
+
+# Bitbank
+DOMAIN-SUFFIX,bitbank.cc
+DOMAIN-SUFFIX,bitbank.com
+
+# Indodax
+DOMAIN-SUFFIX,indodax.com
+DOMAIN-SUFFIX,indodax.net
+
+# Hotcoin
+DOMAIN-SUFFIX,hotcoin.com
+DOMAIN-SUFFIX,hotcoin.top
+DOMAIN-SUFFIX,hotcoin.io
+
+# Coinstore
+DOMAIN-SUFFIX,coinstore.com
+DOMAIN-SUFFIX,coinstore.sg
+DOMAIN-SUFFIX,coinstore.io
