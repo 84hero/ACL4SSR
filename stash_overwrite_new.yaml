@@ -227,7 +227,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换      
-  - name: 🎮 游戏平台
+  - name: 🧑‍💻 GitHub
     type: select
     proxies:
       - DIRECT
@@ -239,6 +239,18 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换      
   - name: 🎶 网易音乐
     type: select
     include-all: true
@@ -564,7 +576,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
- 
+  GitHub:
+    url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Github.list
+    path: ./ruleset/Github.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http 
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
@@ -573,6 +591,7 @@ rules:
   - "RULE-SET,BanProgramAD,🍃 应用净化"
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
   - "RULE-SET,GoogleCN,🎯 全球直连"
+  - "RULE-SET,GitHub,🧑‍💻 GitHub"
   - "RULE-SET,SteamCN,🎯 全球直连"
   - "RULE-SET,Bing,Ⓜ️ 微软Bing"
   - "RULE-SET,OneDrive,Ⓜ️ 微软云盘"
