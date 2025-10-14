@@ -1,3 +1,6 @@
+name: crypto_exchange overwrite
+desc: crypto_exchange overwrite rule
+
 rule-providers:
   Exchange:
     url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Exchange/Exchange.list
