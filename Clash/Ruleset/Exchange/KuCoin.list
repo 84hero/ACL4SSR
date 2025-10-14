@@ -1,0 +1,8 @@
+# KuCoin
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,kucoin.io
+DOMAIN-SUFFIX,kucoin.cc
+
+# （可选）
+DOMAIN-SUFFIX,kcsapi.net
+DOMAIN-SUFFIX,kucoin.net
