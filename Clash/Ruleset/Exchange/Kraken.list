@@ -1,0 +1,8 @@
+# Kraken
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,krakenfx.com
+DOMAIN-SUFFIX,kraken.io   # 用于图像优化服务（非交易）
+
+# （可选）
+DOMAIN-SUFFIX,krakenstatus.com
+DOMAIN-SUFFIX,krakenapi.com
