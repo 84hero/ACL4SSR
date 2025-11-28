@@ -380,9 +380,9 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - 🚀 手动切换    
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 省流节点
       - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -390,7 +390,8 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换      
+      - 省流节点      
+      - 代理链路
 
 rule-providers:
   LocalAreaNetwork:
