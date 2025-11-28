@@ -291,28 +291,7 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 省流节点
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 省流节点
-    include-all: true
-    filter: "0.5|0.1|0.01"
-    type: load-balance
-    # type: url-test
-    interval: 120
-    tolerance: 1000     
-    strategy: round-robin
+
   - name: 🇭🇰 香港节点
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|HongKong
@@ -366,6 +345,14 @@ proxy-groups:
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
+  - name: 省流节点
+    include-all: true
+    filter: "0.5|0.1|0.01"
+    type: load-balance
+    # type: url-test
+    interval: 120
+    tolerance: 1000     
+    strategy: round-robin    
     
   - name: 前置代理
     include-all: true
@@ -389,7 +376,21 @@ proxy-groups:
     type: relay
     proxies:
       - 中继代理
-      - 前置代理    
+      - 前置代理
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 省流节点
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换      
 
 rule-providers:
   LocalAreaNetwork:
