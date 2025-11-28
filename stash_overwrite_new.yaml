@@ -52,6 +52,7 @@ proxy-groups:
       - 🇨🇳 东南亚节点
       - 🚀 手动切换
       - 省流节点
+      - 代理链路
       - DIRECT
   - name: 🚀 手动切换
     include-all: true
