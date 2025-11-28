@@ -91,7 +91,22 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
- 
+
+  - name: 🕊 推特X
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🚀 手动切换      
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 省流节点
+      - 代理链路
+      - DIRECT 
       
   - name: 📹 油管视频
     type: select
@@ -610,6 +625,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http 
+  Twitter:
+    url: https://raw.githubusercontent.com/84hero/ACL4SSR/master/Clash/Ruleset/Twitter.list
+    path: ./ruleset/Twitter.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http     
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
@@ -619,6 +641,7 @@ rules:
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
   - "RULE-SET,GoogleCN,🎯 全球直连"
   - "RULE-SET,GitHub,🧑‍💻 GitHub"
+  - "RULE-SET,Twitter,🕊 推特X"
   - "RULE-SET,SteamCN,🎯 全球直连"
   - "RULE-SET,Bing,Ⓜ️ 微软Bing"
   - "RULE-SET,OneDrive,Ⓜ️ 微软云盘"
