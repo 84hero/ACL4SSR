@@ -363,17 +363,6 @@ proxy-groups:
     type: select
   - name: 中继代理
     include-all: true
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 省流节点
     type: select
   - name: 代理链路
     type: relay
