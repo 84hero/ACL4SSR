@@ -2,11 +2,13 @@ name: stash base overwrite
 desc: stash base overwrite rule
 dns:
   enable: true
-  listen: 127.0.0.1:7874
+  listen: 0.0.0.0:53                  # 改成 0.0.0.0:53，让系统所有 App 都能走增强 DNS
   ipv6: false
-  enhanced-mode: redir-host 
-  # enhanced-mode: fake-ip
-  # fake-ip-range: 198.18.0.1/16
+  respect-rules: true                # 新增：严格遵守规则里的 DNS 策略
+  enhanced-mode: redir-host          # 关键：彻底告别 Fake-IP，局域网永不通断
+  default-nameserver:                # 新增：冷启动也能解析
+    - 223.5.5.5
+    - 119.29.29.29
 
   # 国内外分流 DNS
   nameserver:
@@ -626,10 +628,9 @@ rule-providers:
     type: http     
 
 rules:
-
-  - "RULE-SET,LocalAreaNetwork,DIRECT"
+  - "RULE-SET,LocalAreaNetwork,DIRECT,no-resolve "
   - "RULE-SET,UnBan,🎯 全球直连"
-  - "RULE-SET,BanAD,🛑 广告拦截"
+  - "RULE-SET,BanAD,🛑 广告拦截,no-resolve"
   - "RULE-SET,BanProgramAD,🍃 应用净化"
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
   - "RULE-SET,GoogleCN,🎯 全球直连"
