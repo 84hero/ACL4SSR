@@ -2,11 +2,11 @@ name: stash base overwrite
 desc: stash base overwrite rule
 dns:
   enable: true
-  listen: 0.0.0.0:53                  # 改成 0.0.0.0:53，让系统所有 App 都能走增强 DNS
+  listen: 0.0.0.0:53                  
   ipv6: false
-  respect-rules: true                # 新增：严格遵守规则里的 DNS 策略
-  enhanced-mode: redir-host          # 关键：彻底告别 Fake-IP，局域网永不通断
-  default-nameserver:                # 新增：冷启动也能解析
+  respect-rules: true                
+  enhanced-mode: redir-host          
+  default-nameserver: 
     - 223.5.5.5
     - 119.29.29.29
 
@@ -27,8 +27,6 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-
-
       
 proxy-groups:
   - name: 🚀 节点选择
